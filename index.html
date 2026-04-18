@@ -9,6 +9,8 @@
 
 <meta name="description" content="Salão AP Concept Hair em Campo Grande MS. Corte feminino, escova, coloração, progressiva, manicure e tratamentos capilares. Agende seu horário.">
 
+<meta name="keywords" content="salão de beleza campo grande ms, cabeleireiro campo grande, progressiva campo grande, corte feminino campo grande, hidratação capilar campo grande, ap concept hair">
+
 <link rel="icon" type="image/png" href="IMG_0392.png">
 
 <!-- Google Font -->
@@ -22,162 +24,153 @@
 <meta property="og:description" content="Corte feminino, progressiva, hidratação, manicure e muito mais.">
 <meta property="og:image" content="IMG_0392.png">
 <meta property="og:type" content="website">
-
 <style>
 :root {
   --black-main: #0f0f0f;
-  --black-soft: #1a1a1a;
-  --gold-light: #f5d88c;
   --gold-main: #c9a24d;
-  --gold-dark: #8f6b1f;
+  --gold-light: #ffd796;
+  --gold-dark: #a67c2d;
 }
 
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: radial-gradient(circle at top, #1a1a1a 0%, #0f0f0f 60%);
-  color: #eaeaea;
+  background-color: var(--black-main);
+  color: white;
   text-align: center;
-  scroll-behavior: smooth;
 }
 
-.menu{
-position:fixed;
-top:0;
-width:100%;
-background:rgba(11,11,11,0.8);
-backdrop-filter:blur(10px);
-padding:15px;
-z-index:1000;
+header {
+  padding: 100px 20px 60px;
 }
 
-.menu a{
-color:white;
-margin:0 15px;
-text-decoration:none;
-font-size:14px;
+.logo {
+  width: 120px;
+  border-radius: 50%;
 }
 
-header{
-padding:120px 20px;
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #0b0b0b;
+  padding: 15px;
+  z-index: 1000;
 }
 
-.logo{
-max-width:200px;
-margin-bottom:30px;
+.menu a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
 }
 
-header h1{
-font-size:42px;
-background: linear-gradient(90deg,var(--gold-light),var(--gold-main),var(--gold-dark));
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
 }
 
-.slogan{
-letter-spacing:2px;
+.servicos {
+  display: grid;
+  gap: 15px;
 }
 
-section{
-padding:60px 20px;
-max-width:900px;
-margin:auto;
+.card {
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
 }
 
-.servicos{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-gap:18px;
+.link {
+  display: block;
+  margin: 20px auto;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
 }
 
-.card{
-background:#1a1a1a;
-padding:20px;
-border-radius:20px;
+.whatsapp {
+  background: #25d366;
 }
 
-.link{
-display:block;
-margin:15px auto;
-padding:14px;
-border-radius:30px;
-color:white;
-text-decoration:none;
-max-width:300px;
+.instagram {
+  background: #E1306C;
 }
 
-.whatsapp{background:#25d366;}
-.instagram{background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af);}
-
-.galeria{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
-gap:14px;
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
+  gap: 10px;
 }
 
-.galeria img{
-width:100%;
-border-radius:14px;
-cursor:pointer;
+.galeria img {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-footer{
-background:#000;
-padding:20px;
-}
-
-.whatsapp-float{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25d366;
-padding:16px;
-border-radius:50%;
-color:white;
+footer {
+  padding: 20px;
+  background: #000;
 }
 </style>
-
 </head>
-
 <body>
 
 <nav class="menu">
-<a href="#sobre">Sobre</a>
-<a href="#servicos">Serviços</a>
-<a href="#galeria">Galeria</a>
-<a href="#contato">Contato</a>
+  <a href="#sobre">Sobre</a>
+  <a href="#servicos">Serviços</a>
+  <a href="#galeria">Galeria</a>
+  <a href="#contato">Contato</a>
 </nav>
 
 <header>
-<p>Especialista em beleza feminina</p>
-<img src="IMG_0392.png" class="logo">
-<h1>AP Concept Hair</h1>
-<p class="slogan">Beleza, cuidado e sofisticação</p>
-<a href="https://wa.me/5567999697180" class="link whatsapp">Agendar</a>
-</header>
+  <p>Especialista em beleza feminina</p>
 
+  <img src="IMG_0392.png" class="logo">
+
+  <h1>AP Concept Hair</h1>
+
+  <p>Salão de beleza em Campo Grande MS</p>
+  <p>Beleza, cuidado e sofisticação em cada detalhe</p>
+
+  <a href="https://wa.me/5567999697180" class="link whatsapp">
+    Agendar horário
+  </a>
+</header>
 <section id="sobre">
 <h2>Sobre nós</h2>
 <p>
 O AP Concept Hair é um espaço criado para quem busca mais do que um serviço de beleza.
-✨ Atendimento personalizado • Cuidado em cada detalhe
 </p>
 </section>
 
 <section id="servicos">
 <h2>Serviços</h2>
+
 <div class="servicos">
 <div class="card">Corte feminino</div>
 <div class="card">Escova</div>
 <div class="card">Hidratação</div>
 <div class="card">Coloração</div>
 <div class="card">Progressiva</div>
-<div class="card">Manicure</div>
+<div class="card">Tratamentos capilares</div>
+<div class="card">Manicure e Pedicure</div>
+<div class="card">Designer de Sobrancelhas</div>
 </div>
-</section>
 
+<a class="link whatsapp" href="https://wa.me/5567999697180">
+Agende pelo WhatsApp
+</a>
+
+<a class="link instagram" href="https://instagram.com/apconcepthair">
+Instagram
+</a>
+</section>
 <section id="galeria">
 <h2>Galeria</h2>
+
 <div class="galeria">
 <img src="IMG_0386.jpeg">
 <img src="IMG_0385.jpeg">
@@ -185,8 +178,58 @@ O AP Concept Hair é um espaço criado para quem busca mais do que um serviço d
 </div>
 </section>
 
+<section>
+<h2>Depoimentos</h2>
+
+<div class="servicos">
+<div class="card">Excelente atendimento!</div>
+<div class="card">Ambiente lindo!</div>
+</div>
+</section>
+<section id="contato">
+<h2>Contato</h2>
+
+<p>Rua Clemente Pereira, 250</p>
+<p>Campo Grande - MS</p>
+
+<a class="link whatsapp" href="https://wa.me/5567999697180">
+WhatsApp
+</a>
+
+<iframe
+src="https://www.google.com/maps?q=Rua+Clemente+Pereira+250+Campo+Grande+MS&output=embed"
+width="100%" height="300">
+</iframe>
+
+</section>
+<script>
+const imagens = document.querySelectorAll(".galeria img");
+
+imagens.forEach(img => {
+  img.addEventListener("click", () => {
+    const overlay = document.createElement("div");
+    overlay.style.position = "fixed";
+    overlay.style.top = "0";
+    overlay.style.left = "0";
+    overlay.style.width = "100%";
+    overlay.style.height = "100%";
+    overlay.style.background = "black";
+
+    const imgGrande = document.createElement("img");
+    imgGrande.src = img.src;
+    imgGrande.style.width = "90%";
+
+    overlay.appendChild(imgGrande);
+    overlay.addEventListener("click", () => overlay.remove());
+
+    document.body.appendChild(overlay);
+  });
+});
+</script>
+
 <footer>
 <p>AP Concept Hair</p>
+<p>© 2026</p>
 </footer>
 
 </body>
